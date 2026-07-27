@@ -458,30 +458,7 @@ largest-cluster fraction
 5. Compare cluster-size distributions, giant-cluster fractions, loop
    statistics, and percolation boundaries across the four descriptions.
 
-## Important implementation notes
-
-- Run scripts from their own directories because several input and output paths
-  are relative.
-- Create `cl_dis/`, `cl_dis_1/`, and `kd_<kd>/` directories before running
-  scripts that write into them.
-- Most summary files are opened in append mode. Remove or rename old output
-  files before starting a statistically independent sweep if duplicate rows
-  are not desired.
-- Random seeds are not exposed consistently through the command line, so exact
-  numerical repetition requires adding fixed seeds to NumPy, Python `random`,
-  and HOOMD-blue.
-- The RGG distance matrices scale quadratically with the number of vertices and
-  can require substantial memory for large systems.
-- `FS_theory/new_graph.py` contains an unused direct-factorial helper that
-  references `math` without importing it. The production calculation uses the
-  stable `gammaln` implementation and is unaffected.
-
 ## Citation
 
-If these scripts contribute to published work, cite the associated article and
-the software repository. Add the final citation and DOI here when available.
+Our paper (From real polymers to random graphs: percolation thresholds in associative polymer solutions) will be submitted to Macromolecules. You can also find in Arxiv: 
 
-## License
-
-No license file is included in the supplied archive. Add a `LICENSE` file before
-public release so that reuse and redistribution terms are explicit.
