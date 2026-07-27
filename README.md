@@ -1,4 +1,4 @@
-# Associative Polymer Networks: Simulation, Graph Models, and Flory–Stockmayer Theory
+# Associative Polymer Networks: Simulation, Random Graph Models, and Flory–Stockmayer Theory
 MD simulation for percolation network and Random (Geometric) Graph methods
 
 This repository contains molecular-dynamics simulations and theoretical/network
