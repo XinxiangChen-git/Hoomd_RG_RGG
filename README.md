@@ -49,9 +49,6 @@ code/
         └── a.sh
 ```
 
-Files beginning with `._` and the `__MACOSX/` directory are macOS archive
-metadata and are not part of the scientific code. They can be removed before
-publishing the repository.
 
 ## Model overview
 
