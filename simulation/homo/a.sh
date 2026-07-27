@@ -19,7 +19,7 @@ do
 				do
 					for((n=0;n<=0;n++))
 					do
-						python teset_v4_1.py $i ${n_polymer[${j}]} ${N_length[${k}]} ${f_sticker[${l}]} ${L_final[${m}]} ${e_a[${n}]}
+						python test_v4_1.py $i ${n_polymer[${j}]} ${N_length[${k}]} ${f_sticker[${l}]} ${L_final[${m}]} ${e_a[${n}]}
 					done
 				done
 			done
