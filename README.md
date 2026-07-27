@@ -332,12 +332,7 @@ log_cnf_<parameters>.txt
 trajectory_cnf_<parameters>.gsd
 ```
 
-`simulation/homo/a.sh` provides a parameter-sweep template. Before using it,
-correct the script name:
-
-```text
-teset_v4_1.py  ->  test_v4_1.py
-```
+`simulation/homo/a.sh` provides a parameter-sweep template. 
 
 ### Heteroassociative simulation
 
