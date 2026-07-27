@@ -1,4 +1,4 @@
-# Hoomd_RG_RGG
+# Associative Polymer Networks: Simulation, Graph Models, and Flory–Stockmayer Theory
 MD simulation for percolation network and Random (Geometric) Graph methods
 
 This repository contains molecular-dynamics simulations and theoretical/network
